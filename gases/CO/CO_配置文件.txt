@@ -1,0 +1,20 @@
+C:/Users/linq/Desktop/CO/振转能级/1基态X1sigema振转能级.txt
+0 1 1 1
+C:/Users/linq/Desktop/CO/振转能级/2激发态a3pai振转能级.txt
+48686.7 1 1 2
+C:/Users/linq/Desktop/CO/振转能级/3激发态a'3sigema振转能级.txt
+55825.49 1 1 1
+C:/Users/linq/Desktop/CO/振转能级/4激发态d3deta振转能级.txt
+61120 1 1 2
+C:/Users/linq/Desktop/CO/振转能级/5激发态e3sigema振转能级.txt
+64230.2 1 1 1
+C:/Users/linq/Desktop/CO/振转能级/6激发态A1pai振转能级.txt
+65075.7 1 1 2
+C:/Users/linq/Desktop/CO/振转能级/7激发态I1sigema振转能级.txt
+65084.4 1 1 1
+C:/Users/linq/Desktop/CO/振转能级/8激发态D1deta振转能级.txt
+65928 1 1 2
+C:/Users/linq/Desktop/CO/振转能级/9激发态B1sigema振转能级.txt
+86945.2 1 1 1
+C:/Users/linq/Desktop/CO/振转能级/10激发态C1sigema振转能级.txt
+91916.5 1 1 1
