@@ -1,0 +1,18 @@
+# ninja log v5
+2459	3721	7009140753843423	CMakeFiles/Spectrum.dir/src/qwidget/qtitlebar.cpp.obj	315e7109edbb620d
+2456	3728	7009140753903421	CMakeFiles/Spectrum.dir/src/qwidget/qtimerprogressbar.cpp.obj	c4b72ff560711ccd
+2451	5041	7009140767026916	CMakeFiles/Spectrum.dir/src/qsrc/qinterface.cpp.obj	d76e36e2630f2902
+705	1099	7009141347810220	Spectrum.exe	c1d22e580c4c939f
+2444	9962	7009140816214164	CMakeFiles/Spectrum.dir/Spectrum_autogen/mocs_compilation.cpp.obj	d07262a7b4404e34
+2448	8496	7009140801585934	CMakeFiles/Spectrum.dir/src/qsrc/mainwindow.cpp.obj	4ba06e8ca5d397fa
+70	710	7009141067336609	CMakeFiles/Spectrum.dir/src/csrc/cpfundation.cpp.obj	ccbf025076310a2f
+2385	2443	7009140741036228	Spectrum_autogen/IIA6HZ5L7L/qrc_mipmap.cpp	748c4d5d004dfca4
+2446	7140	7009140788018934	CMakeFiles/Spectrum.dir/src/qsrc/main.cpp.obj	dbd45d89488fa4a1
+2453	25239	7009140968930291	CMakeFiles/Spectrum.dir/src/qwidget/qcustomplot.cpp.obj	a31e95da1100dde4
+19	59	0	Spectrum_autogen/mocs_compilation.cpp	7b05979b21309929
+19	59	0	C:/Project/Qt/git_admin/spectrum/build/CMakeFiles/Spectrum_autogen	7b05979b21309929
+2385	2443	7009140741036228	C:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/IIA6HZ5L7L/qrc_mipmap.cpp	748c4d5d004dfca4
+19	59	0	CMakeFiles/Spectrum_autogen	7b05979b21309929
+63	704	7009141343964090	CMakeFiles/Spectrum.dir/src/csrc/cpextend.cpp.obj	9737dd367f5a616a
+19	59	0	C:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/mocs_compilation.cpp	7b05979b21309929
+2468	2609	7009140742710685	CMakeFiles/Spectrum.dir/Spectrum_autogen/IIA6HZ5L7L/qrc_mipmap.cpp.obj	36ea163d3b67e6e1

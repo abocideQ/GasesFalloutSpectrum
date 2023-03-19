@@ -1,0 +1,4 @@
+C:/Project/Qt/git_admin/spectrum/build/CMakeFiles/Spectrum.dir
+C:/Project/Qt/git_admin/spectrum/build/CMakeFiles/edit_cache.dir
+C:/Project/Qt/git_admin/spectrum/build/CMakeFiles/rebuild_cache.dir
+C:/Project/Qt/git_admin/spectrum/build/CMakeFiles/Spectrum_autogen.dir
