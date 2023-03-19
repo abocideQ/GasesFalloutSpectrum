@@ -24,6 +24,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #    endif()
 #endif()
 
+# 查找 windeployqt / macdeployqt 文件
+# list(APPEND CMAKE_PREFIX_PATH "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib")
+# get_target_property(_qmake_executable Qt${QT_VERSION_MAJOR}::qmake IMPORTED_LOCATION)
+# get_filename_component(_qt_bin_dir "${_qmake_executable}" DIRECTORY)
+# find_program(DEPLOYQT_EXECUTABLE NAMES windeployqt macdeployqt HINTS "${_qt_bin_dir}")
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
@@ -64,7 +69,7 @@ else()
   )
 endif()
 
-target_link_libraries(Spectrum 
-  PRIVATE 
+target_link_libraries(Spectrum
+  PRIVATE
   Qt${QT_VERSION_MAJOR}::Widgets
 )

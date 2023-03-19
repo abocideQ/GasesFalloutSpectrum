@@ -1,52 +1,52 @@
 [
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\Spectrum_autogen\\mocs_compilation.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\build\\Spectrum_autogen\\mocs_compilation.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\build\\Spectrum_autogen\\mocs_compilation.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\Spectrum_autogen\\mocs_compilation.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\build\\Spectrum_autogen\\mocs_compilation.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qsrc\\main.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qsrc\\main.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\src\\qsrc\\main.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qsrc\\main.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qsrc\\main.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/src/qsrc/main.cpp"
 },
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qsrc\\mainwindow.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qsrc\\mainwindow.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\src\\qsrc\\mainwindow.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qsrc\\mainwindow.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qsrc\\mainwindow.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/src/qsrc/mainwindow.cpp"
 },
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qsrc\\qinterface.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qsrc\\qinterface.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\src\\qsrc\\qinterface.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qsrc\\qinterface.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qsrc\\qinterface.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/src/qsrc/qinterface.cpp"
 },
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qwidget\\qcustomplot.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qwidget\\qcustomplot.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\src\\qwidget\\qcustomplot.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qwidget\\qcustomplot.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qwidget\\qcustomplot.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/src/qwidget/qcustomplot.cpp"
 },
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qwidget\\qtimerprogressbar.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qwidget\\qtimerprogressbar.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\src\\qwidget\\qtimerprogressbar.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qwidget\\qtimerprogressbar.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qwidget\\qtimerprogressbar.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/src/qwidget/qtimerprogressbar.cpp"
 },
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qwidget\\qtitlebar.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qwidget\\qtitlebar.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\src\\qwidget\\qtitlebar.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\qwidget\\qtitlebar.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\qwidget\\qtitlebar.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/src/qwidget/qtitlebar.cpp"
 },
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\csrc\\cpfundation.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\csrc\\cpfundation.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\src\\csrc\\cpfundation.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\csrc\\cpfundation.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\csrc\\cpfundation.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/src/csrc/cpfundation.cpp"
 },
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\csrc\\cpextend.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\csrc\\cpextend.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\src\\csrc\\cpextend.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\src\\csrc\\cpextend.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\src\\csrc\\cpextend.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/src/csrc/cpextend.cpp"
 },
 {
   "directory": "C:/Project/Qt/git_admin/spectrum/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -IC:/Project/Qt/git_admin/spectrum/build -IC:/Project/Qt/git_admin/spectrum -IC:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore -isystem C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++ -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\Spectrum_autogen\\IIA6HZ5L7L\\qrc_mipmap.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\build\\Spectrum_autogen\\IIA6HZ5L7L\\qrc_mipmap.cpp",
-  "file": "C:\\Project\\Qt\\git_admin\\spectrum\\build\\Spectrum_autogen\\IIA6HZ5L7L\\qrc_mipmap.cpp"
+  "command": "C:\\Project\\Qt\\Qt5.12.10\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB @CMakeFiles/Spectrum.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles\\Spectrum.dir\\Spectrum_autogen\\IIA6HZ5L7L\\qrc_mipmap.cpp.obj -c C:\\Project\\Qt\\git_admin\\spectrum\\build\\Spectrum_autogen\\IIA6HZ5L7L\\qrc_mipmap.cpp",
+  "file": "C:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/IIA6HZ5L7L/qrc_mipmap.cpp"
 }
 ]

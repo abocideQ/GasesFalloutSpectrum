@@ -146,19 +146,19 @@
 		"C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE",
 		"C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore",
 		"C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/mkspecs/win32-g++",
-		"C:/msys64/mingw64/include/c++/12.2.0",
-		"C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32",
-		"C:/msys64/mingw64/include/c++/12.2.0/backward",
-		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
-		"C:/msys64/mingw64/include",
-		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"
+		"C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++",
+		"C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32",
+		"C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward",
+		"C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include",
+		"C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed",
+		"C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/x86_64-w64-mingw32/include"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"C:/msys64/mingw64/bin/g++.exe",
+		"C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/g++.exe",
 		"-dM",
 		"-E",
 		"-c",
