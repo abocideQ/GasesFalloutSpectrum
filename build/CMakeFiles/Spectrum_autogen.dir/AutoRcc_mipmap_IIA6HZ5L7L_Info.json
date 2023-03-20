@@ -1,23 +1,23 @@
 {
-	"BUILD_DIR" : "C:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Project/Qt/git_admin/spectrum/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Project/Qt/git_admin/spectrum/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Project/Qt/git_admin/spectrum",
-	"CMAKE_SOURCE_DIR" : "C:/Project/Qt/git_admin/spectrum",
-	"INCLUDE_DIR" : "C:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include",
+	"BUILD_DIR" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build/Spectrum_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Project/qt/github_admin/gas_fallout_spectrum",
+	"CMAKE_SOURCE_DIR" : "D:/Project/qt/github_admin/gas_fallout_spectrum",
+	"INCLUDE_DIR" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build/Spectrum_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Project/Qt/git_admin/spectrum/src/res/icon.png",
-		"C:/Project/Qt/git_admin/spectrum/src/res/ic_folder.png"
+		"D:/Project/qt/github_admin/gas_fallout_spectrum/src/res/icon.png",
+		"D:/Project/qt/github_admin/gas_fallout_spectrum/src/res/ic_folder.png"
 	],
-	"LOCK_FILE" : "C:/Project/Qt/git_admin/spectrum/build/CMakeFiles/Spectrum_autogen.dir/AutoRcc_mipmap_IIA6HZ5L7L_Lock.lock",
+	"LOCK_FILE" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/Spectrum_autogen.dir/AutoRcc_mipmap_IIA6HZ5L7L_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "mipmap" ],
 	"OUTPUT_CHECKSUM" : "IIA6HZ5L7L",
 	"OUTPUT_NAME" : "qrc_mipmap.cpp",
-	"RCC_EXECUTABLE" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/bin/rcc.exe",
+	"RCC_EXECUTABLE" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/bin/rcc.exe",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "C:/Project/Qt/git_admin/spectrum/build/CMakeFiles/Spectrum_autogen.dir/AutoRcc_mipmap_IIA6HZ5L7L_Used.txt",
-	"SOURCE" : "C:/Project/Qt/git_admin/spectrum/src/res/mipmap.qrc",
+	"SETTINGS_FILE" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/Spectrum_autogen.dir/AutoRcc_mipmap_IIA6HZ5L7L_Used.txt",
+	"SOURCE" : "D:/Project/qt/github_admin/gas_fallout_spectrum/src/res/mipmap.qrc",
 	"VERBOSITY" : 0
 }

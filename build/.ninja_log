@@ -1,0 +1,16 @@
+# ninja log v5
+1578	11537	7009961571412940	CMakeFiles/Spectrum.dir/src/qsrc/mainwindow.cpp.obj	73c60420a3182f11
+1595	3972	7009961495735917	CMakeFiles/Spectrum.dir/src/csrc/cpextend.cpp.obj	6ed0b1b9b9a5b1af
+1576	9624	7009961552246723	CMakeFiles/Spectrum.dir/src/qsrc/main.cpp.obj	402c42afaadc7162
+1583	32259	7009961778581178	CMakeFiles/Spectrum.dir/src/qwidget/qcustomplot.cpp.obj	7851107dfd609f2c
+11	1498	0	Spectrum_autogen/mocs_compilation.cpp	6660d67799d801fb
+11	1498	0	D:/Project/qt/github_admin/gas_fallout_spectrum/build/Spectrum_autogen/mocs_compilation.cpp	6660d67799d801fb
+1574	13319	7009961589211620	CMakeFiles/Spectrum.dir/Spectrum_autogen/mocs_compilation.cpp.obj	1e328da2fe570b0c
+1589	4313	7009961499133783	CMakeFiles/Spectrum.dir/src/qwidget/qtitlebar.cpp.obj	c93284a7c396c9a7
+1498	1573	7009961471732893	D:/Project/qt/github_admin/gas_fallout_spectrum/build/Spectrum_autogen/IIA6HZ5L7L/qrc_mipmap.cpp	c40beb26ad8b809e
+1599	1841	7009961474401948	CMakeFiles/Spectrum.dir/Spectrum_autogen/IIA6HZ5L7L/qrc_mipmap.cpp.obj	4de1668ad809f5af
+32259	32696	7009961782927322	Spectrum.exe	ce645867d1953702
+1580	7016	7009961526179439	CMakeFiles/Spectrum.dir/src/qsrc/qinterface.cpp.obj	482af840e186cb7d
+1586	4338	7009961499389910	CMakeFiles/Spectrum.dir/src/qwidget/qtimerprogressbar.cpp.obj	6943e61aa34fcd02
+1498	1573	7009961471732893	Spectrum_autogen/IIA6HZ5L7L/qrc_mipmap.cpp	c40beb26ad8b809e
+1592	3849	7009961494473898	CMakeFiles/Spectrum.dir/src/csrc/cpfundation.cpp.obj	93ea91b10dd12544

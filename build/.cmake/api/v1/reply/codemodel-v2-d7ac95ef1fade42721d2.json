@@ -6,7 +6,8 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-949072ad3220c293a82d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -41,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Spectrum::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Spectrum-Release-591fe4411d572541d174.json",
+					"jsonFile" : "target-Spectrum-Release-5a9508457cfd29b1da0e.json",
 					"name" : "Spectrum",
 					"projectIndex" : 0
 				},
@@ -58,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Project/Qt/git_admin/spectrum/build",
-		"source" : "C:/Project/Qt/git_admin/spectrum"
+		"build" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build",
+		"source" : "D:/Project/qt/github_admin/gas_fallout_spectrum"
 	},
 	"version" : 
 	{

@@ -14,21 +14,18 @@
 		"commands" : 
 		[
 			"add_executable",
+			"install",
 			"target_link_libraries",
-			"set_target_properties",
-			"_populate_Widgets_target_properties",
-			"find_package",
 			"set_property",
-			"include"
+			"include",
+			"find_package"
 		],
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
-			"C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake",
-			"C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
-			"C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
-			"C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+			"D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+			"D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+			"D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake"
 		],
 		"nodes" : 
 		[
@@ -38,82 +35,56 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 63,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 72,
+				"line" : 79,
 				"parent" : 0
-			},
-			{
-				"command" : 4,
-				"file" : 0,
-				"line" : 33,
-				"parent" : 0
-			},
-			{
-				"file" : 2,
-				"parent" : 3
-			},
-			{
-				"command" : 4,
-				"file" : 2,
-				"line" : 28,
-				"parent" : 4
-			},
-			{
-				"file" : 1,
-				"parent" : 5
-			},
-			{
-				"command" : 3,
-				"file" : 1,
-				"line" : 160,
-				"parent" : 6
 			},
 			{
 				"command" : 2,
-				"file" : 1,
-				"line" : 32,
-				"parent" : 7
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
 			},
 			{
-				"command" : 4,
-				"file" : 1,
-				"line" : 95,
-				"parent" : 6
-			},
-			{
-				"file" : 5,
-				"parent" : 9
-			},
-			{
-				"command" : 4,
-				"file" : 5,
-				"line" : 95,
-				"parent" : 10
-			},
-			{
-				"file" : 4,
-				"parent" : 11
-			},
-			{
-				"command" : 6,
-				"file" : 4,
-				"line" : 183,
-				"parent" : 12
+				"command" : 5,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
 			},
 			{
 				"file" : 3,
-				"parent" : 13
+				"parent" : 4
 			},
 			{
 				"command" : 5,
 				"file" : 3,
+				"line" : 28,
+				"parent" : 5
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 183,
+				"parent" : 7
+			},
+			{
+				"file" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
 				"line" : 108,
-				"parent" : 14
+				"parent" : 9
 			}
 		]
 	},
@@ -132,63 +103,63 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "QT_CORE_LIB"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "QT_GUI_LIB"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "QT_NO_DEBUG"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"path" : "C:/Project/Qt/git_admin/spectrum/build"
+					"path" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build"
 				},
 				{
-					"path" : "C:/Project/Qt/git_admin/spectrum"
+					"path" : "D:/Project/qt/github_admin/gas_fallout_spectrum"
 				},
 				{
 					"backtrace" : 0,
-					"path" : "C:/Project/Qt/git_admin/spectrum/build/Spectrum_autogen/include"
+					"path" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build/Spectrum_autogen/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include"
+					"path" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets"
+					"path" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui"
+					"path" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE"
+					"path" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/include/QtGui"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include/QtCore"
+					"path" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/include/QtANGLE"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/./mkspecs/win32-g++"
+					"path" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/include/QtWidgets"
 				}
 			],
 			"language" : "CXX",
@@ -196,7 +167,7 @@
 			{
 				"backtraces" : 
 				[
-					2
+					3
 				],
 				"standard" : "11"
 			},
@@ -223,6 +194,20 @@
 		}
 	],
 	"id" : "Spectrum::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/Project/qt/github_admin/gas_fallout_spectrum/install"
+		}
+	},
 	"link" : 
 	{
 		"commandFragments" : 
@@ -236,23 +221,23 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Project\\Qt\\Qt5.12.10\\5.12.10\\mingw73_64\\lib\\libQt5Widgets.a",
+				"backtrace" : 3,
+				"fragment" : "D:\\Project\\qt\\Qt5.12.10\\5.12.10\\mingw73_64\\lib\\libQt5Widgets.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
-				"fragment" : "C:\\Project\\Qt\\Qt5.12.10\\5.12.10\\mingw73_64\\lib\\libQt5Gui.a",
+				"backtrace" : 3,
+				"fragment" : "D:\\Project\\qt\\Qt5.12.10\\5.12.10\\mingw73_64\\lib\\libQt5Gui.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
-				"fragment" : "C:\\Project\\Qt\\Qt5.12.10\\5.12.10\\mingw73_64\\lib\\libQt5Core.a",
+				"backtrace" : 3,
+				"fragment" : "D:\\Project\\qt\\Qt5.12.10\\5.12.10\\mingw73_64\\lib\\libQt5Core.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 15,
-				"fragment" : "C:\\Project\\Qt\\Qt5.12.10\\5.12.10\\mingw73_64\\lib\\libqtmain.a",
+				"backtrace" : 10,
+				"fragment" : "D:\\Project\\qt\\Qt5.12.10\\5.12.10\\mingw73_64\\lib\\libqtmain.a",
 				"role" : "libraries"
 			},
 			{

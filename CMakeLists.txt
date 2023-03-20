@@ -1,3 +1,11 @@
+# Qt build with CMake
+# Tips: CMake Build Tools Should Be <QT.Version.TOOLS.Mingw> Or Windeployqt Will Not Work.
+# 1. CMake: Scan for Kits(* from .../.../CMakeTools/cmake-tools-kits.json)
+# 2. CMake: Select a Kist(* should be Qt's tools .../.../QT${QtVersion}/${QtVersion}/Mingw${MingwVersion}/bin)
+# 3. CMake: Select a Variant(Debug or Release mode)
+# 4. CMake: Clean Rebuild
+# 5. CMake: Debug / Run Without Debugging
+# 0. CMake: Install(Will Build a .exe/.???)
 cmake_minimum_required(VERSION 3.5)
 
 project(Spectrum LANGUAGES CXX)
@@ -11,29 +19,13 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# QtCreator supports the following variables for Android, which are identical to qmake Android variables.
-# Check http://doc.qt.io/qt-5/deployment-android.html for more information.
-# They need to be set before the find_package(Qt5 ...) call.
+# env path to find_package 
+set(Qt5_DIR D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5/)
+find_package(Qt5 COMPONENTS Core Gui Widgets REQUIRED)
 
-#if(ANDROID)
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
-#    if (ANDROID_ABI STREQUAL "armeabi-v7a")
-#        set(ANDROID_EXTRA_LIBS
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libcrypto.so
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libssl.so)
-#    endif()
-#endif()
-
-# 查找 windeployqt / macdeployqt 文件
-# list(APPEND CMAKE_PREFIX_PATH "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib")
-# get_target_property(_qmake_executable Qt${QT_VERSION_MAJOR}::qmake IMPORTED_LOCATION)
-# get_filename_component(_qt_bin_dir "${_qmake_executable}" DIRECTORY)
-# find_program(DEPLOYQT_EXECUTABLE NAMES windeployqt macdeployqt HINTS "${_qt_bin_dir}")
-find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
-
+# SRC
 set(src
-  #src
+  # .CPP.H
   ${CMAKE_SOURCE_DIR}/src/qsrc/main.cpp
   ${CMAKE_SOURCE_DIR}/src/qsrc/mainwindow.cpp
   ${CMAKE_SOURCE_DIR}/src/qsrc/mainwindow.h
@@ -51,25 +43,44 @@ set(src
   ${CMAKE_SOURCE_DIR}/src/csrc/cpextend.h
   ${CMAKE_SOURCE_DIR}/src/csrc/modelspec.h
   ${CMAKE_SOURCE_DIR}/src/csrc/stringutils.h
-  #res
+  # .QRC
   ${CMAKE_SOURCE_DIR}/src/res/mipmap.qrc
 )
-
 if(ANDROID)
-  add_library(Spectrum SHARED
+  add_library(${PROJECT_NAME} SHARED
+  ${src}
+  )
+elseif(WIN32)
+  if(CMAKE_BUILD_TYPE STREQUAL Release)
+  add_executable(${PROJECT_NAME} WIN32
     ${src}
   )
-elseif(CMAKE_BUILD_TYPE STREQUAL Release)
-  add_executable(Spectrum WIN32
-    ${src}
+  else()
+  add_executable(${PROJECT_NAME}
+  ${src}
   )
+  endif()
 else()
-  add_executable(Spectrum
-    ${src}
+  add_executable(${PROJECT_NAME}
+  ${src}
   )
 endif()
 
-target_link_libraries(Spectrum
+# LINK_LIB
+target_link_libraries(${PROJECT_NAME}
   PRIVATE
-  Qt${QT_VERSION_MAJOR}::Widgets
+  Qt5::Core
+  Qt5::Gui
+  Qt5::Widgets
+)
+
+# INSTALL
+set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/install)
+install(TARGETS ${PROJECT_NAME}
+    ARCHIVE 
+      DESTINATION lib
+    LIBRARY 
+      DESTINATION lib
+    RUNTIME
+      DESTINATION bin
 )

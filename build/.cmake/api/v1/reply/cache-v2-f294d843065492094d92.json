@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/addr2line.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/ar.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Project/Qt/git_admin/spectrum/build"
+			"value" : "d:/Project/qt/github_admin/gas_fallout_spectrum/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -94,22 +94,6 @@
 			"value" : "2"
 		},
 		{
-			"name" : "CMAKE_COLOR_MAKEFILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable/Disable color output during build."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
 			"name" : "CMAKE_COMMAND",
 			"properties" : 
 			[
@@ -119,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/mingw64/bin/cmake.exe"
+			"value" : "C:/Program Files/msys64/mingw64/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -131,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/mingw64/bin/cpack.exe"
+			"value" : "C:/Program Files/msys64/mingw64/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -143,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/mingw64/bin/ctest.exe"
+			"value" : "C:/Program Files/msys64/mingw64/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -159,7 +143,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/g++.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -175,7 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/gcc-ar.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -191,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/gcc-ranlib.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -294,12 +278,144 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/gcc.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/gcc.exe"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/gcc-ar.exe"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/gcc-ranlib.exe"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_STANDARD_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Libraries linked by default with all C applications."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
 		},
 		{
 			"name" : "CMAKE_DLLTOOL",
@@ -315,7 +431,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/dlltool.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -327,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/mingw64/bin/ccmake.exe"
+			"value" : "C:/Program Files/msys64/mingw64/bin/ccmake.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -455,7 +571,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Project/Qt/git_admin/spectrum/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -467,7 +583,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "MinGW Makefiles"
+			"value" : "Ninja"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -527,7 +643,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Project/Qt/git_admin/spectrum"
+			"value" : "D:/Project/qt/github_admin/gas_fallout_spectrum"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -555,7 +671,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/ld.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -567,11 +683,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "make program"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/mingw32-make.exe"
+			"value" : "C:/PROGRA~1/msys64/mingw64/bin/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -667,7 +783,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/nm.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -695,7 +811,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/objcopy.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -711,7 +827,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/objdump.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -775,7 +891,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/ranlib.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -791,7 +907,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/bin/windres.exe"
+			"value" : "C:/Program Files/msys64/mingw64/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -899,7 +1015,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/readelf.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -911,7 +1027,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/mingw64/share/cmake"
+			"value" : "C:/Program Files/msys64/mingw64/share/cmake"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1119,7 +1235,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/Tools/mingw730_64/bin/strip.exe"
+			"value" : "D:/Project/qt/Qt5.12.10/Tools/mingw730_64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1138,136 +1254,40 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "DESIRED_QT_VERSION",
+			"name" : "Project_BINARY_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Pick a version of Qt to use: 3 or 4"
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "STRING",
-			"value" : "3"
+			"type" : "STATIC",
+			"value" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build"
 		},
 		{
-			"name" : "QT3_QGLOBAL_H_FILE",
+			"name" : "Project_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a file."
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/include"
+			"type" : "STATIC",
+			"value" : "ON"
 		},
 		{
-			"name" : "QT4_QGLOBAL_H_FILE",
+			"name" : "Project_SOURCE_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a file."
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "QT4_QGLOBAL_H_FILE-NOTFOUND"
-		},
-		{
-			"name" : "QT_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for QT."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5"
-		},
-		{
-			"name" : "QT_INCLUDE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "path to Qt3 include directory"
-				}
-			],
-			"type" : "PATH",
-			"value" : "QT_INCLUDE_DIR-NOTFOUND"
-		},
-		{
-			"name" : "QT_MOC_EXECUTABLE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/bin/moc.exe"
-		},
-		{
-			"name" : "QT_QASSISTANTCLIENT_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_QASSISTANTCLIENT_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "QT_QMAKE_EXECUTABLE_FINDQT",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/bin/qmake.exe"
-		},
-		{
-			"name" : "QT_QTMAIN_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "This Library is only needed by and included with Qt3 on MSWindows. It should be NOTFOUND, undefined or IGNORE otherwise."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/libqtmain.a"
-		},
-		{
-			"name" : "QT_QT_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_QT_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "QT_UIC_EXECUTABLE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/bin/uic.exe"
+			"type" : "STATIC",
+			"value" : "D:/Project/qt/github_admin/gas_fallout_spectrum"
 		},
 		{
 			"name" : "Qt5Core_DIR",
@@ -1279,7 +1299,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Core"
+			"value" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Core"
 		},
 		{
 			"name" : "Qt5Gui_DIR",
@@ -1291,7 +1311,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Gui"
+			"value" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Gui"
 		},
 		{
 			"name" : "Qt5Widgets_DIR",
@@ -1303,19 +1323,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Widgets"
-		},
-		{
-			"name" : "Qt5_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt5."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Project/Qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5"
+			"value" : "D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5Widgets"
 		},
 		{
 			"name" : "Spectrum_BINARY_DIR",
@@ -1327,7 +1335,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Project/Qt/git_admin/spectrum/build"
+			"value" : "D:/Project/qt/github_admin/gas_fallout_spectrum/build"
 		},
 		{
 			"name" : "Spectrum_IS_TOP_LEVEL",
@@ -1351,7 +1359,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Project/Qt/git_admin/spectrum"
+			"value" : "D:/Project/qt/github_admin/gas_fallout_spectrum"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
