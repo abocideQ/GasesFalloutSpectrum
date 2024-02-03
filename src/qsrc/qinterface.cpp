@@ -135,7 +135,7 @@ int qinterface::cp_fundation(int type, QJsonObject jsonObject)
         m_modelArgs.weight = m_src_json_params.value("weight").toDouble();
         m_modelArgs.step = m_src_json_params.value("step").toDouble();
         m_modelArgs.h = 6.626 * pow(10, -34);
-        m_modelArgs.c = 3 * pow(10, 8);
+        m_modelArgs.c = 3 * pow(10, 10);
         m_modelArgs.k = (1.38 * pow(10, -23));
         // cp
         int err = mp_cpfundation->cp_fundation(type, &m_modelArgs, &m_vec_vj_all, &m_vec_aul, &m_out_vec_xy);
@@ -202,7 +202,7 @@ int qinterface::cp_extend(int type, QJsonObject jsonObject)
         m_modelArgs.weight = m_src_json_params.value("weight").toDouble();
         m_modelArgs.step = m_src_json_params.value("step").toDouble();
         m_modelArgs.h = 6.626 * pow(10, -34);
-        m_modelArgs.c = 3 * pow(10, 8);
+        m_modelArgs.c = 3 * pow(10, 10);
         m_modelArgs.k = (1.38 * pow(10, -23));
         // cp fundation
         int err = mp_cpfundation->cp_fundation(type, &m_modelArgs, &m_vec_vj_all, &m_vec_aul, &m_out_vec_xy);

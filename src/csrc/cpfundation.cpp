@@ -143,16 +143,20 @@ int cpfundation::cp_fundation(int type, ModelArgs* args, vector<vector<ModelVJ>>
             { // 吸收系数
                 for (size_t i = 0; i < target->size(); i++)
                 {
-                    ModelXY* model_xy = &target->at(i);
-                    long double Na = cp_na(args->Tgas);
-                    long double nu = Na * (model_xy->model_vj_up->Qevj / Q);
-                    long double nl = Na * (model_xy->model_vj_low->Qevj / Q);
-                    model_xy->y = model_xy->Aul * ((nl * model_xy->model_vj_up->gj) - (nu * model_xy->model_vj_low->gj));
-                    model_xy->y = model_xy->y / (8 * pai * args->c * model_xy->model_vj_low->gj * pow(model_xy->x, 4) * pow(10, 8));
+                    //老版
+                    // ModelXY* model_xy = &target->at(i);
+                    // long double Na = cp_na(args->Tgas);
                     // long double nu = Na * (model_xy->model_vj_up->Qevj / Q);
                     // long double nl = Na * (model_xy->model_vj_low->Qevj / Q);
-                    // model_xy->y = model_xy->Aul * ((nl * model_xy->model_vj_low->gj) - (nu * model_xy->model_vj_up->gj));
-                    // model_xy->y = model_xy->y / (8 * pai * args->c * model_xy->model_vj_up->gj * pow(model_xy->x, 4) * pow(10, 8));
+                    // model_xy->y = model_xy->Aul * ((nl * model_xy->model_vj_up->gj) - (nu * model_xy->model_vj_low->gj));
+                    // model_xy->y = model_xy->y / (8 * pai * args->c * model_xy->model_vj_low->gj * pow(model_xy->x, 4) * pow(10, 8));
+                    //新版
+                    ModelXY* model_xy = &target->at(i);
+                    model_xy->y = 1 / (8 * pai * args->c);
+                    model_xy->y = model_xy->y * (1 / pow((model_xy->x), 2));
+                    model_xy->y = model_xy->y * (model_xy->model_vj_up->gj * exp((-1 * args->h * args->c / args->k) * (model_xy->model_vj_low->Eevj / args->Tgas))) / Q;
+                    model_xy->y = model_xy->y * (1 - exp((-1 * args->h * args->c / args->k) * ((model_xy->x) / args->Tgas)));
+                    model_xy->y = model_xy->y * model_xy->Aul;
                 }
             }
             lock.lock();

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+52db91040b578b73887f268e0e9e2b5a CMakeFiles/Spectrum_autogen
+6752bbfb2922d620a418025f807c7400 Spectrum_autogen/IIA6HZ5L7L/qrc_mipmap.cpp

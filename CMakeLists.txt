@@ -20,7 +20,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # env path to find_package 
-set(Qt5_DIR D:/Project/qt/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5/)
+set(Qt5_DIR D:/Project/qt/QT/Qt5.12.10/5.12.10/mingw73_64/lib/cmake/Qt5/)
 find_package(Qt5 COMPONENTS Core Gui Widgets REQUIRED)
 
 # SRC

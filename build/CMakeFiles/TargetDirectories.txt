@@ -1,8 +1,8 @@
-D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/Spectrum.dir
-D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/edit_cache.dir
-D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/rebuild_cache.dir
-D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/list_install_components.dir
-D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/install.dir
-D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/install/local.dir
-D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/install/strip.dir
-D:/Project/qt/github_admin/gas_fallout_spectrum/build/CMakeFiles/Spectrum_autogen.dir
+C:/Project/Qt/git_admin/spectrum2/spectrum/gas_fallout_spectrum/build/CMakeFiles/Spectrum.dir
+C:/Project/Qt/git_admin/spectrum2/spectrum/gas_fallout_spectrum/build/CMakeFiles/edit_cache.dir
+C:/Project/Qt/git_admin/spectrum2/spectrum/gas_fallout_spectrum/build/CMakeFiles/rebuild_cache.dir
+C:/Project/Qt/git_admin/spectrum2/spectrum/gas_fallout_spectrum/build/CMakeFiles/list_install_components.dir
+C:/Project/Qt/git_admin/spectrum2/spectrum/gas_fallout_spectrum/build/CMakeFiles/install.dir
+C:/Project/Qt/git_admin/spectrum2/spectrum/gas_fallout_spectrum/build/CMakeFiles/install/local.dir
+C:/Project/Qt/git_admin/spectrum2/spectrum/gas_fallout_spectrum/build/CMakeFiles/install/strip.dir
+C:/Project/Qt/git_admin/spectrum2/spectrum/gas_fallout_spectrum/build/CMakeFiles/Spectrum_autogen.dir
